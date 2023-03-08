@@ -1,0 +1,4 @@
+import re
+text = "I watched big Bang theory on my gf birthday"
+m = re.findall (r'\b[bB]\w+', text)
+print (m)
